@@ -1,0 +1,79 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #222; /* Dark background for the entire page */
+  color: #fff; /* Text color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Kalam', cursive;
+  font-size: 32px;
+  color: #FF5722; /* Orange color for the heading */
+  margin-bottom: 20px;
+}
+
+#task-input {
+  width: 300px; /* Adjust the input width as needed */
+  padding: 10px;
+  border: 1px solid #FF5722; /* Orange border */
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 10px;
+  background-color: #333; /* Dark input background */
+  color: #fff;
+}
+
+#add-button {
+  padding: 10px 20px;
+  background-color: #FF5722; /* Orange color for the button */
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#add-button:hover {
+  background-color: #FF4500; /* Darker orange on hover */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  width: 300px; /* Adjust the list item width as needed */
+  background-color: #333; /* Dark background for list items */
+  color: #fff;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button#remove-button {
+  background-color: #4265ff; /* Red color for the Remove button */
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button#remove-button:hover {
+  background-color: #213ed1; /* Darker red on hover */
+}
